@@ -1,0 +1,3 @@
+# ALMOST PALINDROME
+
+An almost palindrome — the word needs to be the same when reading backwards, but there’s always a character that needs to be changed.  I made a for so I could split the length of the String in two in order to compare both sides later. The first if is like adding to one side of the string and then reducing the other with the same value (adding one unit and reducing one unit) so when it’s equal, both sides of the string would have already counted. The second if is in case there’s more than one element that needs to be changed, or not at all for that matter, therefore it’s not an almost palindrome.
